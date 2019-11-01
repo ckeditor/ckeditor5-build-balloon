@@ -1,0 +1,48 @@
+:root {
+	/* Helper variables to avoid duplication in the colors. */
+	--ck-custom-background: #fff;
+
+	/* -- Overrides generic colors. ------------------------------------------------------------- */
+
+	--ck-color-base-foreground: var(--ck-custom-background);
+	--ck-inner-shadow: none;
+	--ck-focus-outer-shadow: none;
+	--ck-drop-shadow: 0 3px 13px 0 rgba(44, 44, 44, 0.3);
+
+	/* -- Overrides the default .ck-button class colors. ---------------------------------------- */
+
+	--ck-color-button-default-background: var(--ck-custom-background);
+	--ck-color-button-default-disabled-background: var(--ck-custom-background);
+
+	--ck-color-button-save: #00C87E;
+	--ck-color-button-cancel: #ff1f49;
+
+	/* -- Overrides the default .ck-dropdown class colors. -------------------------------------- */
+
+	--ck-color-dropdown-panel-background: var(--ck-custom-background);
+	--ck-color-dropdown-panel-border: transparent;
+
+	/* -- Overrides the default .ck-input class colors. ----------------------------------------- */
+
+	--ck-color-input-background: var(--ck-custom-background);
+
+	/* -- Overrides the default .ck-list class colors. ------------------------------------------ */
+
+	--ck-color-list-background: var(--ck-custom-background);
+
+	/* -- Overrides the default .ck-balloon-panel class colors. --------------------------------- */
+
+	--ck-color-panel-background: var(--ck-custom-background);
+	--ck-color-panel-border: transparent;
+
+	/* -- Overrides the default .ck-toolbar class colors. --------------------------------------- */
+
+	--ck-color-toolbar-background: var(--ck-custom-background);
+
+	/* -- Overrides the default .ck-tooltip class colors. --------------------------------------- */
+
+	--ck-color-tooltip-background: #4c4c4c;
+	--ck-color-tooltip-text: #fff;
+
+	--ck-input-text-width: 220px;
+}
